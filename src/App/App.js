@@ -1,8 +1,6 @@
 import React from 'react';
 import './App.css';
-import Cards from '../Components/Cards/Cards'
-import Chart from '../Components/Chart/Chart'
-import CountryPicker from '../Components/CountryPicker/CountryPicker'
+import { Cards, Chart, CountryPicker } from '../Components/';
 
 function App() {
   return (
