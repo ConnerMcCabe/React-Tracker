@@ -11,6 +11,7 @@
 This is a COVID-19 tracker using
 - React
 - Material UI
+- ChartJS 2
 - API used: https://covid19.mathdro.id/api
 
 
