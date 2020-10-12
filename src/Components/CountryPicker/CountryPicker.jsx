@@ -4,7 +4,7 @@ import styles from "./CountryPicker.module.css"
 
 const CountryPicker = () => {
   return (
-    <FormControl classnName={styles.formControl}>
+    <FormControl className={styles.formControl}>
       <NativeSelect>
         <option value="global">Global</option>
       </NativeSelect>
