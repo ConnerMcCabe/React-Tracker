@@ -23,6 +23,7 @@ export const fetchData = async (country) => {
 export const fetchDailyData = async () => {
   try {
     const { data } = await axios.get('https://api.covidtracking.com/v1/us/daily.json');
+    
     let dataFlip = data.reverse();
     
     return dataFlip.map(({ positive, recovered, death, dateChecked: date }) => ({

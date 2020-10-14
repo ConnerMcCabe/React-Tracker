@@ -1,4 +1,14 @@
 .formControl {
   width: 30%;
   margin: 0 10% !important;
+  background-color: #d8dfe5 !important;
+  border-radius: 4px !important;
+  box-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 1px 3px 0px rgba(0,0,0,0.12) !important;
 }
+
+@media (max-width: 640px) {
+  .formControl {
+    width: 75%;
+    margin: 10%;
+  }
+} 
