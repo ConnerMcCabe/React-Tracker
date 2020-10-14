@@ -16,7 +16,7 @@ export const fetchData = async () => {
 
 export const fetchDailyData = async () => {
   try {
-    const { data } = await axios.get('https://api.covidtracking.com/v1/us/daily.json')
+    const { data } = await axios.get('https://api.covidtracking.com/v1/us/daily.json');
     
     return data.map(({ positive, recovered, death, dateChecked: date }) => ({
       confirmed: positive, recovered, deaths: death, date
@@ -30,7 +30,8 @@ export const countries = async () => {
   try {
     const response = await axios.get(`${url}/countries`);
     console.log(response)
+    // return countries.map((country) => country.name);
   } catch(error) {
-    return error
+    return error;
   }
 }
